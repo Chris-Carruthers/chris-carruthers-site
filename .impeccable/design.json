@@ -1,0 +1,524 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-18T04:24:47.490384+00:00",
+  "title": "Design System: Chris Carruthers",
+  "extensions": {
+    "colorMeta": {
+      "racing-green": {
+        "role": "primary",
+        "displayName": "Warm Deep Racing Green",
+        "canonical": "#2a3b26",
+        "tonalRamp": [
+          "#121a10",
+          "#1d2a1a",
+          "#2a3b26",
+          "#374b31",
+          "#4f6648",
+          "#738a6b",
+          "#a3b49c",
+          "#dfe6da"
+        ]
+      },
+      "racing-green-raised": {
+        "role": "primary",
+        "displayName": "Raised Paint",
+        "canonical": "#374b31",
+        "tonalRamp": [
+          "#121a10",
+          "#1d2a1a",
+          "#2a3b26",
+          "#374b31",
+          "#4f6648",
+          "#738a6b",
+          "#a3b49c",
+          "#dfe6da"
+        ]
+      },
+      "on-green": {
+        "role": "neutral",
+        "displayName": "On Green",
+        "canonical": "#eee8d9",
+        "tonalRamp": [
+          "#3a362c",
+          "#5e584a",
+          "#837c6c",
+          "#a8a191",
+          "#c8c1b0",
+          "#ddd6c6",
+          "#eee8d9",
+          "#f8f5ee"
+        ]
+      },
+      "on-green-dim": {
+        "role": "neutral",
+        "displayName": "On Green Dim",
+        "canonical": "#c2c8b0",
+        "tonalRamp": [
+          "#30352a",
+          "#4d5444",
+          "#6c735f",
+          "#8e957f",
+          "#aab19a",
+          "#c2c8b0",
+          "#d9ddcc",
+          "#eff1e8"
+        ]
+      },
+      "butterscotch": {
+        "role": "secondary",
+        "displayName": "Gear-Knob Butterscotch",
+        "canonical": "#e3ab60",
+        "tonalRamp": [
+          "#3d250b",
+          "#634017",
+          "#8d5e26",
+          "#b8803a",
+          "#e3ab60",
+          "#efc17f",
+          "#f6d9ad",
+          "#fcf0dd"
+        ]
+      },
+      "butterscotch-bright": {
+        "role": "secondary",
+        "displayName": "Bright Butterscotch",
+        "canonical": "#efc17f",
+        "tonalRamp": [
+          "#3d250b",
+          "#634017",
+          "#8d5e26",
+          "#b8803a",
+          "#e3ab60",
+          "#efc17f",
+          "#f6d9ad",
+          "#fcf0dd"
+        ]
+      },
+      "cognac": {
+        "role": "tertiary",
+        "displayName": "Cognac",
+        "canonical": "#8e4a20",
+        "tonalRamp": [
+          "#2a1306",
+          "#4a230c",
+          "#6b3515",
+          "#8e4a20",
+          "#b0663a",
+          "#cc8d66",
+          "#e3bc9f",
+          "#f6e6da"
+        ]
+      },
+      "saddle-leather": {
+        "role": "tertiary",
+        "displayName": "Saddle Leather",
+        "canonical": "#3a2215",
+        "tonalRamp": [
+          "#170c06",
+          "#2a170d",
+          "#3a2215",
+          "#4b2d1c",
+          "#6e4a35",
+          "#977560",
+          "#c5aa98",
+          "#efe3da"
+        ]
+      },
+      "on-leather": {
+        "role": "neutral",
+        "displayName": "On Leather",
+        "canonical": "#f3e6d2",
+        "tonalRamp": [
+          "#3d3020",
+          "#625140",
+          "#8a7661",
+          "#b19c84",
+          "#d6bd9f",
+          "#e8d6bd",
+          "#f3e6d2",
+          "#fbf5ec"
+        ]
+      },
+      "on-leather-dim": {
+        "role": "neutral",
+        "displayName": "On Leather Dim",
+        "canonical": "#d6bd9f",
+        "tonalRamp": [
+          "#3d3020",
+          "#625140",
+          "#8a7661",
+          "#b19c84",
+          "#d6bd9f",
+          "#e8d6bd",
+          "#f3e6d2",
+          "#fbf5ec"
+        ]
+      },
+      "dial-black": {
+        "role": "tertiary",
+        "displayName": "Instrument Black",
+        "canonical": "#111311",
+        "tonalRamp": [
+          "#0b0c0b",
+          "#111311",
+          "#1d201d",
+          "#2e322e",
+          "#4a4f4a",
+          "#717671",
+          "#a3a7a3",
+          "#dcdedc"
+        ]
+      },
+      "dial-ink": {
+        "role": "neutral",
+        "displayName": "Dial Ink",
+        "canonical": "#e9e6df",
+        "tonalRamp": [
+          "#36332c",
+          "#57534a",
+          "#7b766b",
+          "#9d978b",
+          "#bdb7ab",
+          "#d6d2c8",
+          "#e9e6df",
+          "#f7f5f1"
+        ]
+      },
+      "dial-orange": {
+        "role": "tertiary",
+        "displayName": "Dial Orange",
+        "canonical": "#f08c3e",
+        "tonalRamp": [
+          "#3f1c04",
+          "#69300a",
+          "#954614",
+          "#c26324",
+          "#f08c3e",
+          "#f5a86c",
+          "#f9c9a2",
+          "#fdeadb"
+        ]
+      },
+      "needle-orange": {
+        "role": "tertiary",
+        "displayName": "Needle Orange",
+        "canonical": "#ff5f1f",
+        "tonalRamp": [
+          "#420f00",
+          "#6e1c03",
+          "#9e2b07",
+          "#d1400f",
+          "#ff5f1f",
+          "#ff8957",
+          "#ffb898",
+          "#ffe6db"
+        ]
+      },
+      "brushed-aluminium": {
+        "role": "neutral",
+        "displayName": "Brushed Aluminium",
+        "canonical": "#c6c9c6",
+        "tonalRamp": [
+          "#2a2c2a",
+          "#4a4d4a",
+          "#6c706c",
+          "#8d918e",
+          "#a9adaa",
+          "#c6c9c6",
+          "#dfe1df",
+          "#f3f4f3"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Report Paper",
+        "canonical": "#f2efe8",
+        "tonalRamp": [
+          "#33302a",
+          "#57534a",
+          "#7d786d",
+          "#a39d90",
+          "#c9c2b4",
+          "#e8e3d9",
+          "#f2efe8",
+          "#faf8f4"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#1c1b18",
+        "tonalRamp": [
+          "#1c1b18",
+          "#2f2d29",
+          "#45423c",
+          "#554e44",
+          "#7a7368",
+          "#a39d92",
+          "#cdc8bf",
+          "#f0eeea"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Soft Ink",
+        "canonical": "#554e44",
+        "tonalRamp": [
+          "#1c1b18",
+          "#2f2d29",
+          "#45423c",
+          "#554e44",
+          "#7a7368",
+          "#a39d92",
+          "#cdc8bf",
+          "#f0eeea"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#cdc5b6",
+        "tonalRamp": [
+          "#36322a",
+          "#5a5447",
+          "#7f7867",
+          "#a49c8a",
+          "#cdc5b6",
+          "#ddd7cb",
+          "#ebe7df",
+          "#f7f5f1"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline and closing call; expanded Archivo, max 16ch."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Chapter titles beside the exhibit letter, max 20ch."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Product and section titles inside a chapter."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text, 54 to 62ch."
+      },
+      "exhibit": {
+        "displayName": "Exhibit",
+        "purpose": "Lettered exhibit marker (A to E) in the margin gutter."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase gauge-face ledger labels, table heads, figure captions."
+      },
+      "source": {
+        "displayName": "Source",
+        "purpose": "The source line closing every chapter, and the dated log line."
+      }
+    },
+    "shadows": [
+      {
+        "name": "plate-paper",
+        "value": "0 24px 48px -30px rgba(28, 27, 24, 0.45)",
+        "purpose": "Product screenshots on paper."
+      },
+      {
+        "name": "plate-paint",
+        "value": "0 28px 56px -30px rgba(0, 0, 0, 0.6)",
+        "purpose": "Screenshots and the portrait on racing green."
+      },
+      {
+        "name": "instrument-panel",
+        "value": "inset 0 1px 0 rgba(255, 255, 255, 0.06), 0 40px 80px -40px rgba(0, 0, 0, 0.7)",
+        "purpose": "The instrument cluster, with a faint top-light."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Expo-out easing for all state and reveal motion."
+      },
+      {
+        "name": "needle-sweep",
+        "value": "transform 1.8s cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Dial needle sweep from today to target on scroll-in; static at target under reduced motion."
+      },
+      {
+        "name": "schematic-step",
+        "value": "opacity/transform 0.6s, 8px rise, staggered 30ms apps then 90ms spines",
+        "purpose": "Platform schematic draw-on, armed only below the fold."
+      },
+      {
+        "name": "hover",
+        "value": "0.2s",
+        "purpose": "Colour and border transitions on buttons and nav."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1000px"
+      },
+      {
+        "name": "tablet",
+        "value": "860px"
+      },
+      {
+        "name": "phone",
+        "value": "520px"
+      }
+    ],
+    "materials": [
+      {
+        "name": "basketweave",
+        "value": "assets/img/basketweave.svg",
+        "purpose": "Authored 28px woven-strap tile under the leather wash."
+      },
+      {
+        "name": "grain",
+        "value": "assets/img/grain.svg",
+        "purpose": "Procedural 240px hide grain over the leather."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Filled butterscotch action on dark grounds (LinkedIn).",
+      "html": "<a class=\"ds-btn ds-btn-primary\" href=\"#\">Connect on LinkedIn</a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;gap:.6rem;min-height:48px;padding:.8rem 1.35rem;border-radius:6px;font:620 1rem Archivo,'Helvetica Neue',Arial,sans-serif;text-decoration:none;transition:background-color .2s cubic-bezier(.16,1,.3,1),color .2s,border-color .2s}.ds-btn-primary{background:#e3ab60;color:#3a2215}.ds-btn-primary:hover{background:#efc17f}.ds-btn:focus-visible{outline:3px solid #e3ab60;outline-offset:3px}"
+    },
+    {
+      "name": "Quiet Button",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Outlined secondary action on racing green (GitHub).",
+      "html": "<div class=\"ds-paint\"><a class=\"ds-btn-quiet\" href=\"#\">See the code on GitHub</a></div>",
+      "css": ".ds-paint{background:#2a3b26;padding:24px}.ds-btn-quiet{display:inline-flex;align-items:center;min-height:48px;padding:.8rem 1.35rem;border-radius:6px;border:1px solid rgba(238,232,217,.55);color:#eee8d9;font:620 1rem Archivo,'Helvetica Neue',Arial,sans-serif;text-decoration:none;transition:color .2s,border-color .2s}.ds-btn-quiet:hover{border-color:#e3ab60;color:#efc17f}.ds-btn-quiet:focus-visible{outline:3px solid #e3ab60;outline-offset:3px}"
+    },
+    {
+      "name": "Chapter Navigation",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Sticky racing-green bar: expanded uppercase name, chapter links with butterscotch hover rule.",
+      "html": "<header class=\"ds-top\"><a class=\"ds-mark\" href=\"#\">Chris Carruthers</a><nav class=\"ds-nav\"><a href=\"#\">Work</a><a href=\"#\">Platform</a><a href=\"#\">Record</a></nav></header>",
+      "css": ".ds-top{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.9rem 24px;background:#2a3b26;color:#eee8d9;border-bottom:1px solid rgba(198,201,198,.18)}.ds-mark{font:650 .95rem Archivo,sans-serif;font-stretch:125%;letter-spacing:.08em;text-transform:uppercase;color:inherit;text-decoration:none}.ds-nav{display:flex;gap:1.5rem}.ds-nav a{font:400 .9rem Archivo,sans-serif;color:#c2c8b0;text-decoration:none;padding-block:.25rem;border-bottom:1px solid transparent;transition:color .2s,border-color .2s}.ds-nav a:hover{color:#eee8d9;border-color:#e3ab60}.ds-nav a:focus-visible{outline:3px solid #e3ab60;outline-offset:3px}"
+    },
+    {
+      "name": "Exhibit Chapter Head",
+      "kind": "custom",
+      "refersTo": "exhibit-letter",
+      "description": "Lettered exhibit in the left gutter beside the chapter headline; never a kicker above it.",
+      "html": "<header class=\"ds-chead\"><span class=\"ds-exhibit\" aria-hidden=\"true\">A</span><div><h2 class=\"ds-h2\">Products I built with my own hands</h2><p class=\"ds-sub\">Designed, written and shipped.</p></div></header>",
+      "css": ".ds-chead{display:grid;grid-template-columns:clamp(3.5rem,9vw,7.5rem) 1fr;gap:1rem;background:#f2efe8;color:#1c1b18;padding:24px}.ds-exhibit{font:600 clamp(3.5rem,8vw,6.5rem)/.8 'Barlow Semi Condensed',Archivo,sans-serif;color:#8e4a20}.ds-h2{margin:0;font:600 clamp(2rem,4.2vw,3.6rem)/1.02 Archivo,sans-serif;font-stretch:108%;letter-spacing:-.02em;max-width:20ch}.ds-sub{margin:1rem 0 0;font-size:1.15rem;color:#554e44;max-width:60ch}"
+    },
+    {
+      "name": "Evidence Ledger",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Hairline-ruled definition list on paint: butterscotch gauge-face label and figure.",
+      "html": "<dl class=\"ds-ledger\"><div><dt>Company</dt><dd><span class=\"ds-fig\">2</span> businesses founded.</dd></div><div><dt>Product</dt><dd><span class=\"ds-fig\">15&ndash;20</span> person org led.</dd></div></dl>",
+      "css": ".ds-ledger{margin:0;padding:24px;background:#2a3b26;color:#eee8d9;font:400 1.0625rem/1.6 Archivo,sans-serif}.ds-ledger>div{display:grid;grid-template-columns:9.5rem 1fr;gap:1rem;padding-block:.6rem;border-bottom:1px solid rgba(238,232,217,.28)}.ds-ledger>div:first-child{border-top:1px solid rgba(238,232,217,.28)}.ds-ledger dt{font:600 .95rem 'Barlow Semi Condensed',sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#e3ab60;padding-top:.15rem}.ds-ledger dd{margin:0}.ds-fig{font:600 1.2em 'Barlow Semi Condensed',sans-serif;color:#e3ab60;font-variant-numeric:tabular-nums}"
+    },
+    {
+      "name": "Source Line",
+      "kind": "custom",
+      "refersTo": "source-line",
+      "description": "Gauge-face line under a hairline that closes every chapter.",
+      "html": "<p class=\"ds-src\">Sources: employment records and LinkedIn.</p>",
+      "css": ".ds-src{margin:0;padding:.6rem 24px 24px;border-top:1px solid #cdc5b6;background:#f2efe8;font:500 .85rem 'Barlow Semi Condensed',sans-serif;letter-spacing:.02em;color:#554e44;max-width:90ch}"
+    },
+    {
+      "name": "Ruled Record Table",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Open table: ink top rule, hairline rows, gauge-face heads and cognac years.",
+      "html": "<table class=\"ds-table\"><thead><tr><th>When</th><th>Idea</th><th>What happened</th></tr></thead><tbody><tr><td>2023</td><td>Auto-charted clinical notes</td><td>Filed internally before ambient scribes.</td></tr><tr><td>2026</td><td>Configuration by conversation</td><td>Validated as a go.</td></tr></tbody></table>",
+      "css": ".ds-table{width:100%;border-collapse:collapse;background:#f2efe8;color:#1c1b18;font:400 1rem/1.5 Archivo,sans-serif;font-variant-numeric:tabular-nums}.ds-table th{text-align:left;font:600 .9rem 'Barlow Semi Condensed',sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#554e44;padding:0 1rem .75rem 0;border-bottom:1px solid #1c1b18}.ds-table td{vertical-align:top;padding:1.1rem 1.5rem 1.1rem 0;border-bottom:1px solid #cdc5b6}.ds-table td:first-child{font:600 1.15rem 'Barlow Semi Condensed',sans-serif;color:#8e4a20;width:6rem}.ds-table td:nth-child(2){font-weight:600}.ds-table td:last-child{color:#554e44}"
+    },
+    {
+      "name": "Instrument Dial",
+      "kind": "custom",
+      "refersTo": "instrument-cluster",
+      "description": "Black panel dial: aluminium bezel, orange ticks and numerals, butterscotch today mark, orange needle.",
+      "html": "<div class=\"ds-cluster\"><svg class=\"ds-dial\" viewBox=\"0 0 240 240\" aria-hidden=\"true\"><defs><linearGradient id=\"dsalu\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#eef0ee\"/><stop offset=\".35\" stop-color=\"#9da19e\"/><stop offset=\".55\" stop-color=\"#d9dcda\"/><stop offset=\".8\" stop-color=\"#7d817e\"/><stop offset=\"1\" stop-color=\"#c9ccca\"/></linearGradient></defs><circle cx=\"120\" cy=\"120\" r=\"117\" fill=\"none\" stroke=\"url(#dsalu)\" stroke-width=\"6\"/><circle cx=\"120\" cy=\"120\" r=\"112\" fill=\"#151715\" stroke=\"#000\" stroke-width=\"2\"/><g stroke=\"#f08c3e\" stroke-width=\"3\"><line x1=\"47.9\" y1=\"192.1\" x2=\"59.2\" y2=\"180.8\"/><line x1=\"120\" y1=\"18\" x2=\"120\" y2=\"34\"/><line x1=\"192.1\" y1=\"192.1\" x2=\"180.8\" y2=\"180.8\"/></g><g class=\"ds-num\"><text x=\"69\" y=\"176\" text-anchor=\"middle\">0</text><text x=\"120\" y=\"53\" text-anchor=\"middle\">100</text><text x=\"171\" y=\"176\" text-anchor=\"middle\">200</text></g><line x1=\"191.4\" y1=\"48.6\" x2=\"198.4\" y2=\"41.6\" stroke=\"#e3ab60\" stroke-width=\"3\"/><text x=\"120\" y=\"188\" class=\"ds-today\" text-anchor=\"middle\">TODAY 180</text><path class=\"ds-needle\" d=\"M117 134 L120 24 L123 134 Z\" fill=\"#ff5f1f\"/><circle cx=\"120\" cy=\"120\" r=\"11\" fill=\"#c6c9c6\"/><circle cx=\"120\" cy=\"120\" r=\"4\" fill=\"#8d918e\"/></svg></div>",
+      "css": ".ds-cluster{background:radial-gradient(120% 140% at 50% 0%,#1d201d 0%,#111311 60%);border-radius:18px;padding:24px;box-shadow:inset 0 1px 0 rgba(255,255,255,.06),0 40px 80px -40px rgba(0,0,0,.7);color:#e9e6df}.ds-dial{display:block;width:220px;margin-inline:auto;overflow:visible}.ds-num text{paint-order:stroke;stroke:#151715;stroke-width:5px;fill:#f08c3e;font:500 15px 'Barlow Semi Condensed',sans-serif}.ds-today{fill:#e3ab60;font:500 10px 'Barlow Semi Condensed',sans-serif;letter-spacing:.12em}.ds-needle{transform-origin:120px 120px;transform:rotate(-120deg);transition:transform 1.8s cubic-bezier(.16,1,.3,1)}.ds-cluster:hover .ds-needle{transform:rotate(-127deg)}@media (prefers-reduced-motion:reduce){.ds-needle{transition:none}}"
+    },
+    {
+      "name": "Leather Panel",
+      "kind": "card",
+      "refersTo": null,
+      "description": "Saddle leather with grain, wash and basketweave tile, butterscotch contrast stitching inset 12px.",
+      "html": "<section class=\"ds-leather\"><p>Building the teams that build it</p></section>",
+      "css": ".ds-leather{position:relative;padding:48px 24px;color:#f3e6d2;background-color:#3a2215;background-image:linear-gradient(rgba(42,23,13,.55),rgba(42,23,13,.55)),repeating-linear-gradient(90deg,#4a2c1b 0 13px,#2a170d 13px 14px);font:600 1.5rem Archivo,sans-serif}.ds-leather::before,.ds-leather::after{content:'';position:absolute;left:0;right:0;border-top:2px dashed rgba(227,171,96,.55)}.ds-leather::before{top:12px}.ds-leather::after{bottom:12px}.ds-leather p{margin:0}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Exhibit File, Bound in a Restored Car",
+    "overview": "An executive record read the way an annual report's exhibits are read: each chapter is a lettered exhibit (A to E) hung in a wide margin gutter, claims sit in ruled ledgers and tables, and every chapter closes on a source line naming where the evidence came from. That filing discipline lives inside the frame an executive-site visitor expects: portrait, headline, chapters, contact.\n\nThe finish is the cabin of a Singer-reimagined 911, rendered as materials only. Deep warm racing-green paint drenches the hero, the platform chapter and the close. Cognac basketweave leather with butterscotch contrast stitching carries the teams chapter. Butterscotch, the colour of the striped gear knob, is the ink of evidence on dark grounds. Black instrument dials with orange numerals and an orange needle hold the outcome measures. Brushed aluminium appears as hairlines, dial bezels and the needle hub. Light editorial paper carries the reading-heavy exhibits between the dark panels.\n\nThere is no car imagery, no silhouette, no marque, no badge: the materials are the whole reference. Density is that of a well-set report: generous chapter spacing, tight hairline-ruled rows inside.",
+    "keyCharacteristics": [
+      "Surfaces alternate as whole chapters: paint, paper, paint, paper, leather, paper, paint.",
+      "Lettered exhibits in a margin gutter; never a label stacked above a heading.",
+      "Hairline rules do the structural work; boxes are rare.",
+      "Butterscotch marks the evidence (figures, ledger labels, primary action) on dark.",
+      "One instrument cluster carries before-and-after targets as live dials.",
+      "Every chapter ends with a source line."
+    ],
+    "rules": [
+      {
+        "name": "The Knob Rule",
+        "body": "Butterscotch is reserved for evidence and the primary action on dark grounds; on paper the same job passes to cognac. Butterscotch text never sits on paper.",
+        "section": "colors"
+      },
+      {
+        "name": "The Needle Rule",
+        "body": "Needle orange marks the needle and nothing else; dial orange is for scales and dated readouts inside the instrument panel only.",
+        "section": "colors"
+      },
+      {
+        "name": "The Materials-Only Rule",
+        "body": "The car is present as paint, leather, stitching, knob, dials and aluminium. No car photographs, silhouettes, marques or badges, on any surface.",
+        "section": "colors"
+      },
+      {
+        "name": "The Gauge Face Rule",
+        "body": "Numerals that carry evidence (figures, years, dial scales, dates) are set in the gauge face with tabular figures. Archivo carries words, Barlow carries measures.",
+        "section": "typography"
+      },
+      {
+        "name": "The Gutter Not Kicker Rule",
+        "body": "Chapter identity is the exhibit letter in the left gutter, set beside the headline. Nothing small and tracked sits above a heading.",
+        "section": "typography"
+      },
+      {
+        "name": "The Object Shadow Rule",
+        "body": "Only physical objects cast shadows: photographs, screenshots, the dial panel. Text blocks, rows and labels never do, and no shadow is hard-edged or offset.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do close every chapter with a gauge-face source line under a hairline rule.",
+      "Do mark chapters with the lettered exhibit in the left gutter, cognac on paper and butterscotch on dark.",
+      "Do switch material by whole chapter: racing green, report paper, or basketweave leather with butterscotch stitching.",
+      "Do set evidence figures, years and dial scales in Barlow Semi Condensed with tabular numerals.",
+      "Do use butterscotch for evidence and the primary action on dark grounds, cognac for the same role on paper.",
+      "Do keep dials and the schematic fully legible with script off and with reduced motion on."
+    ],
+    "donts": [
+      "Don't use car imagery, silhouettes, marques or badges; the reference is materials only.",
+      "Don't put an eyebrow or kicker (small tracked text) above a heading; identity lives in the exhibit gutter.",
+      "Don't use unicode glyphs as icons; icons are inline SVG.",
+      "Don't push the paint toward olive; the green is the warm deep racing green.",
+      "Don't set butterscotch text on paper, or use needle orange outside the needle.",
+      "Don't box rows into cards; rows are hairline-ruled.",
+      "Don't cast shadows from text, rows or labels, and never a hard offset shadow."
+    ]
+  }
+}

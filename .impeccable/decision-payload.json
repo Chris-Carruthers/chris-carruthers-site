@@ -1,0 +1,71 @@
+{
+  "title": "Choose the visual world",
+  "question": "The roll assigned Mission Flight Plan. Keep it, take an alternate, or re-roll.",
+  "options": [
+    {
+      "id": "assigned", "kind": "assigned", "label": "Mission Flight Plan", "kicker": "THE ROLL",
+      "lineage": "Apollo-era flight plans, checklists and go/no-go polls",
+      "thesis": "Your career filed as a flight plan: every venture a mission, every claim logged with its time and evidence.",
+      "palette": ["#EEF0EC", "#0F1720", "#FF5A1F", "#1F4FD8", "#C9D3DC"],
+      "materials": ["ruled flight-plan sheets", "typewritten checklist log", "GET timeline rail"],
+      "viewport": "A flight-plan cover: condensed caps headline, a COMPANY / PRODUCT / TECHNOLOGY go-poll, crew photo as Fig. 1, LinkedIn in view.",
+      "risk": "Costume risk if the space metaphor goes past documentation into rockets and stars; it has to stay paper, not sci-fi.",
+      "raised": [
+        {"from": "challenger-zine", "raise": "The platform chapter is a stepped schematic that draws the six shared services on as you scroll."},
+        {"from": "challenger-forge", "raise": "Every outcome prints as a measured before→after row drawn to scale (5–6 months → 4 weeks)."},
+        {"from": "challenger-terminal", "raise": "Status prints itself as timestamped log lines, never as badges or pills."}
+      ],
+      "html": ".impeccable/mocks/decision/assigned.html"
+    },
+    {
+      "id": "model-pick", "kind": "pick", "label": "The Exhibit File", "kicker": "IMPECCABLE’S PICK",
+      "lineage": "annual reports and S-1 exhibits",
+      "thesis": "A career read like a filing: numbered exhibits, action titles, ruled tables and a source line under every claim.",
+      "palette": ["#F7F7F4", "#111111", "#0B5C4A"],
+      "materials": ["ruled financial tables", "serif action titles"],
+      "viewport": "Exhibit 1: action title, a three-row outcome table, portrait plate.",
+      "risk": "Familiar: it's where most runs for an exec audience land, and it borders the editorial-serif rut. It also echoes your Exhibit deck.",
+      "html": ".impeccable/mocks/decision/pick.html"
+    },
+    {"id": "challenger-zine", "kind": "challenger", "catalogId": "hand-drawn-zine-explainer", "label": "Hand-drawn Zine", "verdict": "declined",
+      "lineage": "napkin-sketch technical zines", "thesis": "Your platform taught like a friend sketching it.",
+      "palette": ["#FBF6E9", "#111111", "#FFE14D", "#FF6FAE"], "materials": ["marker ink", "highlighter"],
+      "viewport": "Marker headline over a doodled spine diagram.", "risk": "Boards and investors read it as junior.",
+      "case": "Builders like it; boards and investors don't recognize themselves in it, and it isn't clearer.", "kept": "Stepped draw-on diagram for the platform chapter.",
+      "hero": "https://impeccable.style/worlds/cards/hand-drawn-zine-explainer-hero.webp"},
+    {"id": "challenger-terminal", "kind": "challenger", "catalogId": "signals-instruments-phosphor-terminal-midnight", "label": "Phosphor Terminal", "verdict": "declined",
+      "lineage": "green-screen terminals", "thesis": "Career as a live transcript.", "palette": ["#050805", "#33FF66", "#1A7F33"], "materials": ["phosphor glow", "scanlines"],
+      "viewport": "A blinking prompt typing your bio.", "risk": "A developer costume; narrows you to CTO.",
+      "case": "Hides the CEO and CPO story behind a tool costume.", "kept": "States print themselves as log lines.",
+      "hero": "https://impeccable.style/worlds/cards/signals-instruments-phosphor-terminal-midnight-hero.webp"},
+    {"id": "challenger-forge", "kind": "challenger", "catalogId": "metal-forging-patina-blacksmith-scale-shower", "label": "Forge & Hammer", "verdict": "declined",
+      "lineage": "power-hammer forging", "thesis": "Built to Last, literally hammered out.", "palette": ["#141210", "#6B6F73", "#FF7A1A", "#FFF1D6"], "materials": ["hot iron", "scale"],
+      "viewport": "Glowing billet with stencil caps.", "risk": "Heavy-industry metaphor misreads healthcare software.",
+      "case": "Loses both axes: no audience lives in a forge.", "kept": "Measured before→after geometry for outcomes.",
+      "hero": "https://impeccable.style/worlds/cards/metal-forging-patina-blacksmith-scale-shower-hero.webp"},
+    {"id": "challenger-cyc", "kind": "challenger", "catalogId": "stagecraft-theater-lighting-cyclorama-dawn", "label": "Cyclorama Dawn", "verdict": "declined",
+      "lineage": "theater lighting", "thesis": "Career as night breaking into day.", "palette": ["#06070B", "#1F3BB3", "#E07A8F", "#F8F6F2"], "materials": ["light wash"],
+      "viewport": "Black stage with a cobalt horizon band.", "risk": "Mood over evidence.",
+      "case": "Atmosphere without proof; loses on clarity.", "kept": "The page progresses in phases the way a lighting cue does."},
+    {"id": "challenger-handbill", "kind": "challenger", "catalogId": "posters-covers-sleeves-pachuco-zoot-handbill", "label": "Zoot Handbill", "verdict": "declined",
+      "lineage": "1940s dance handbills", "thesis": "Billed like a headliner.", "palette": ["#5B2A4E", "#D9A441", "#F1E6CF"], "materials": ["letterpress"],
+      "viewport": "Stacked billing caps in a scalloped border.", "risk": "Nostalgic novelty.",
+      "case": "Off-world for every audience.", "kept": "Billing order as hierarchy: the strongest proof leads."},
+    {"id": "challenger-telop", "kind": "challenger", "catalogId": "variety-telop-caption-field", "label": "Telop Captions", "verdict": "declined",
+      "lineage": "variety-show captions", "thesis": "Numbers shouting at their own volume.", "palette": ["#FFE100", "#E60012", "#FFFFFF", "#111111"], "materials": ["outlined type"],
+      "viewport": "Outlined captions over a portrait.", "risk": "Undercuts executive gravity.",
+      "case": "Loses both axes.", "kept": "Type scale tracks a number's magnitude."}
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "buildPath": {"value": "code"},
+  "canon": true,
+  "canonCard": {
+    "kind": "canon", "label": "The category standard",
+    "thesis": "The executive personal site, done impeccably: portrait, headline, logo strip, case studies.",
+    "palette": ["#FFFFFF", "#111827", "#2563EB"], "materials": ["clean grid", "portrait photography"],
+    "viewport": "Headline and CTA left, portrait right, logo row under.",
+    "risk": "Indistinguishable from every other exec site by design.",
+    "html": ".impeccable/mocks/decision/canon.html"
+  },
+  "steer": true
+}

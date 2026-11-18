@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-17T21:32:14.052Z",
+        "reason": "Claude's judgment: rows are hairline-ruled editorial ledgers (border-top/bottom rules with padding-block), text flush to a rule by design, not a boxed container"
+      }
+    ]
+  }
+}
