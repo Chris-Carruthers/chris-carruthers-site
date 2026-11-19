@@ -11,6 +11,24 @@
         ],
         "createdAt": "2026-11-17T21:32:14.052Z",
         "reason": "Claude's judgment: rows are hairline-ruled editorial ledgers (border-top/bottom rules with padding-block), text flush to a rule by design, not a boxed container"
+      },
+      {
+        "rule": "tight-leading",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-19T00:09:02.665Z",
+        "reason": "Claude's judgment: only display headings (chapter h2 1.02, h3 1.15, close h2 1.0) are tight; body copy is 1.5+"
+      },
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-19T00:09:02.665Z",
+        "reason": "User-pinned palette: Singer-911 paper ground alongside racing green and cognac (Chris's direction)"
       }
     ]
   }
