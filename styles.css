@@ -64,6 +64,7 @@ q { quotes: "“" "”"; }
 .paint .src { border-color: rgba(238, 232, 217, 0.22); color: var(--on-paint-dim); }
 .leather .src { border-color: rgba(243, 230, 210, 0.22); color: var(--on-leather-dim); }
 .hero .src { margin-top: var(--space-3); border: 0; padding-top: 0; }
+.record + .src, .timeline + .src { border-top: 0; }
 .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .skip { position: absolute; left: var(--gutter); top: -100px; z-index: 50; background: var(--butter); color: var(--leather); padding: 0.6rem 1rem; font-weight: 650; }
 .skip:focus { top: 12px; }
@@ -114,6 +115,7 @@ q { quotes: "“" "”"; }
 .hero { padding-block: clamp(2rem, 3vw, 3rem) var(--space-6); }
 .hero-grid { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: clamp(2rem, 6vw, 6rem); align-items: start; }
 h1, h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0; }
+p, li, dd, td, figcaption { text-wrap: pretty; }
 .hero h1 {
   font-size: clamp(2.6rem, 5vw, 4.6rem);
   font-stretch: 112%; font-weight: 620; line-height: 0.98; letter-spacing: -0.025em;
@@ -198,7 +200,7 @@ h3 { font-size: 1.5rem; font-stretch: 104%; font-weight: 620; letter-spacing: -0
 .work-wide .work-text { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(1.5rem, 4vw, 4rem); align-items: start; }
 .work-wide .work-text p { margin-top: 0; }
 .shot-dark img { background: #0b0c1a; }
-.work-oss .work-text p { max-width: 75ch; }
+.work-oss .work-text p { max-width: 66ch; }
 .links { display: flex; flex-wrap: wrap; gap: 1.5rem; }
 .links a { font-weight: 620; color: var(--cognac); }
 .links a:hover { color: var(--ink); }
@@ -268,12 +270,12 @@ h3 { font-size: 1.5rem; font-stretch: 104%; font-weight: 620; letter-spacing: -0
 .dial .tick { stroke: var(--gauge-num); }
 .dial .num { paint-order: stroke; stroke: #151715; stroke-width: 5px; fill: var(--gauge-num); font-family: var(--gaugeface); font-weight: 500; font-size: 15px; }
 .dial .unit { fill: #9d978b; font-family: var(--gaugeface); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; }
-.dial .today { stroke: var(--butter); stroke-width: 3; }
-.dial .today-label { fill: var(--butter); font-family: var(--gaugeface); font-size: 10px; letter-spacing: 0.12em; }
+.dial .target { stroke: var(--butter); stroke-width: 4; }
+.dial .target-label { fill: var(--butter); font-family: var(--gaugeface); font-size: 12px; letter-spacing: 0.12em; }
 .dial .needle { transform-origin: 120px 120px; transition: transform 1.8s var(--ease); }
 .log {
   margin: var(--space-3) 0 0; padding-top: var(--space-2); border-top: 1px solid rgba(233, 230, 223, 0.15);
-  font-family: var(--gaugeface); font-size: 1rem; letter-spacing: 0.02em; color: #c9c3b7; max-width: 90ch;
+  font-family: var(--gaugeface); font-size: 1rem; letter-spacing: 0.02em; color: #c9c3b7; max-width: 70ch;
 }
 .log time { color: var(--gauge-num); letter-spacing: 0.12em; text-transform: uppercase; margin-right: 0.75rem; }
 
@@ -294,7 +296,7 @@ h3 { font-size: 1.5rem; font-stretch: 104%; font-weight: 620; letter-spacing: -0
 .team-list { list-style: none; margin: 0; padding: 0; }
 .team-list li { padding: 1.1rem 0; border-top: 1px solid rgba(243, 230, 210, 0.22); max-width: 62ch; }
 .team-list b { color: var(--butter); }
-.principles h3 { font-size: 1.1rem; font-family: var(--gaugeface); font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--on-leather-dim); }
+.principles h3 { font-size: 1.1rem; font-family: var(--gaugeface); font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--on-leather-dim); margin-bottom: 0.75rem; }
 .principles blockquote { margin: 0; padding: 1rem 0; border-top: 1px solid rgba(243, 230, 210, 0.22); }
 .principles blockquote p { margin: 0; font-size: 1.15rem; line-height: 1.45; font-stretch: 104%; }
 .endorse { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(1.5rem, 4vw, 4rem); margin-top: var(--space-5); padding-top: var(--space-4); border-top: 1px solid var(--butter); }

@@ -39,21 +39,21 @@
         el("text", { x: tx, y: ty + 5, class: "num", "text-anchor": "middle" }, svg).textContent = v;
       }
     }
-    // where it is today: a butterscotch mark outside the scale
-    const ta = angle(from, max);
-    const [a1, b1] = pt(ta, 106), [a2, b2] = pt(ta, 116);
-    el("line", { x1: a1, y1: b1, x2: a2, y2: b2, class: "today" }, svg);
+    // the needle reads today; the target is a butterscotch mark outside the scale
+    const ta = angle(to, max);
+    const [a1, b1] = pt(ta, 104), [a2, b2] = pt(ta, 118);
+    el("line", { x1: a1, y1: b1, x2: a2, y2: b2, class: "target" }, svg);
     el("text", { x: C, y: 170, class: "unit", "text-anchor": "middle" }, svg).textContent = unit;
-    el("text", { x: C, y: 188, class: "today-label", "text-anchor": "middle" }, svg).textContent = "TODAY " + fig.dataset.from;
+    el("text", { x: C, y: 188, class: "target-label", "text-anchor": "middle" }, svg).textContent = "TARGET " + (fig.dataset.targetLabel || to);
 
     el("circle", { cx: C, cy: C, r: 11, fill: "#c6c9c6" }, svg);
     el("circle", { cx: C, cy: C, r: 4, fill: "#8d918e" }, svg);
 
     const set = (v) => (g.style.transform = `rotate(${angle(v, max)}deg)`);
-    if (reduce) { set(to); return null; }
+    if (reduce) { set(from); return null; }
     g.style.transition = "none";
-    set(from);
-    return () => { g.getBoundingClientRect(); g.style.transition = ""; set(to); };
+    set(0);
+    return () => { g.getBoundingClientRect(); g.style.transition = ""; set(from); };
   }
 
   const dials = [...document.querySelectorAll(".dial")].map((f) => [f, drawDial(f)]);
