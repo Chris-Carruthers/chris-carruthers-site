@@ -368,3 +368,15 @@ h3 { font-size: 1.5rem; font-stretch: 104%; font-weight: 620; letter-spacing: -0
 @media (prefers-reduced-motion: reduce) {
   .dial .needle, .schematic * { transition: none !important; }
 }
+
+/* Screenshots open full size; closing section uses the full width on desktop. */
+.shot-link { display: block; cursor: zoom-in; }
+.shot-link:hover img { border-color: var(--ink-2); }
+@media (min-width: 861px) {
+  .close .wrap { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); column-gap: var(--space-4); align-items: end; }
+  .close h2 { grid-row: span 2; max-width: 14ch; }
+  .close p { margin-top: 0; }
+}
+@media (max-width: 860px) {
+  .top { position: relative; }
+}
